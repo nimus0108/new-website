@@ -1,0 +1,34 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    height: 100vh;
+    
+    .about {
+        background-image: url(img/fireworks1.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .skills {
+        background-image: url(img/fireworks2.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    } 
+    .contact {
+        background-image: url(img/fireworks3.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+}
