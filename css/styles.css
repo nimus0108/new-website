@@ -26,7 +26,8 @@ p {
   line-height: 1em; }
 
 .main {
-  background-color: #1abc9c;
+  /* background-color: #1abc9c; */
+  background-image: url(img/fireworks1.jpeg);
   background-size: 100% 100vh;
   height: 100vh;
   top: 0;
@@ -37,9 +38,6 @@ p {
     font-size: 4em; }
 
 @media (max-width: 1000px) {
-  .main {
-    background-image: url(img/fireworks1.jpeg); }
-
   .four.columns {
     width: 70%; } }
 @media (max-width: 400px) {
@@ -49,7 +47,9 @@ p {
 .title {
   color: #000;
   text-align: center;
-  font-size: 4em; }
+  font-size: 4em;
+  padding-top: 60px;
+  padding-bottom: 45px; }
 
 .who {
   color: black;
@@ -70,9 +70,8 @@ p {
     .who .six.columns h4 {
       font-size: 3em;
       text-transform: uppercase; }
-  .who .who-intro {
-    padding-top: 60px;
-    padding-bottom: 45px; }
+    .who .six.columns p {
+      line-height: 1.5em; }
   .who .developer-pic {
     background-image: url(img/devpic.jpg);
     background-repeat: no-repeat;
