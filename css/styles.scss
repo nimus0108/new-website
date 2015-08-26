@@ -31,6 +31,46 @@ p {
     line-height: 1em;
 }
 
+/*
+@media (min-width: 768px) { 
+    
+ }
+
+
+@media (min-width: 992px) { 
+    .projects {
+        margin: 0 38px;
+    }
+    .proj {
+        margin: 15px;
+    }
+ }
+
+@media (min-width: 1000px) { 
+    .projects {
+        margin: 0 45px;
+    }
+    .proj {
+        margin: 15px;
+    }
+ }
+ 
+ @media (min-width: 1000px) { 
+    .projects {
+        margin: 0 45px;
+    }
+    .proj {
+        margin: 15px;
+    }
+ }
+ 
+@media (min-width: 1200px) { 
+    .projects {
+        visibility: hidden;
+    }
+ }
+
+*/
 .main {
     background-color: #1abc9c; 
     /*background-image: url(img/fireworks1.jpeg); */
@@ -110,15 +150,14 @@ p {
 
 .projects {
     color: #000;
+    text-align:center;
     
     .r {
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        display: flex;
+        justify-content: center;
     }
     
     img {
-        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
@@ -128,8 +167,11 @@ p {
     
   
     .proj {
-        height: 200px;
-        
+        display: inline-block;
+        height: 250px;
+        width: 420px;
+
+        /*
         h3 {
             display: block;
             visibility: hidden;
@@ -161,6 +203,7 @@ p {
         img {
             opacity: 0.1;
         }
+        */
     }
 
 }

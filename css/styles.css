@@ -26,6 +26,46 @@ p {
   font-size: 1.5em;
   line-height: 1em; }
 
+/*
+@media (min-width: 768px) { 
+    
+ }
+
+
+@media (min-width: 992px) { 
+    .projects {
+        margin: 0 38px;
+    }
+    .proj {
+        margin: 15px;
+    }
+ }
+
+@media (min-width: 1000px) { 
+    .projects {
+        margin: 0 45px;
+    }
+    .proj {
+        margin: 15px;
+    }
+ }
+ 
+ @media (min-width: 1000px) { 
+    .projects {
+        margin: 0 45px;
+    }
+    .proj {
+        margin: 15px;
+    }
+ }
+ 
+@media (min-width: 1200px) { 
+    .projects {
+        visibility: hidden;
+    }
+ }
+
+*/
 .main {
   background-color: #1abc9c;
   /*background-image: url(img/fireworks1.jpeg); */
@@ -83,40 +123,53 @@ p {
     background-size: 100%; }
 
 .projects {
-  color: #000; }
+  color: #000;
+  text-align: center; }
   .projects .r {
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto; }
+    display: flex;
+    justify-content: center; }
   .projects img {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1; }
   .projects .proj {
-    height: 200px; }
-    .projects .proj h3 {
-      display: block;
-      visibility: hidden;
-      transition-delay: .2s; }
-    .projects .proj p {
-      display: block;
-      visibility: hidden;
-      transition-delay: .2s; }
-    .projects .proj img {
-      -webkit-transition: opacity .35s ease-in-out;
-      -moz-transition: opacity .35s ease-in-out;
-      -ms-transition: opacity .35s ease-in-out;
-      -o-transition: opacity .35s ease-in-out;
-      transition: opacity .35s ease-in-out; }
-  .projects .proj:hover h3 {
-    visibility: visible;
-    display: block; }
-  .projects .proj:hover p {
-    visibility: visible; }
-  .projects .proj:hover img {
-    opacity: 0.1; }
+    display: inline-block;
+    height: 250px;
+    width: 420px;
+    /*
+    h3 {
+        display: block;
+        visibility: hidden;
+        transition-delay: .2s;
+    }                 
+    p {
+        display: block;
+        visibility: hidden;
+        transition-delay: .2s;
+    }
+    
+    img {
+        -webkit-transition: opacity .35s ease-in-out;
+    -moz-transition: opacity .35s ease-in-out;
+    -ms-transition: opacity .35s ease-in-out;
+    -o-transition: opacity .35s ease-in-out;
+    transition: opacity .35s ease-in-out;
+    }                                                                                       
+}
+
+.proj:hover {
+    h3 {
+        visibility: visible;
+        display: block;
+    }
+    p {
+        visibility: visible;
+    }
+    img {
+        opacity: 0.1;
+    }
+    */ }
 
 /*# sourceMappingURL=styles.css.map */
