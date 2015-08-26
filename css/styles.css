@@ -126,7 +126,7 @@ p {
   color: #000;
   text-align: center;
   margin-left: 30px; }
-  .projects p {
+  .projects .p-description {
     margin-top: -20px;
     margin-bottom: 30px; }
   .projects img {
