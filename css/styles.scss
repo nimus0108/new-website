@@ -31,46 +31,10 @@ p {
     line-height: 1em;
 }
 
-/*
-@media (min-width: 768px) { 
-    
- }
+a:hover {
+    color: #81CFE0;
+}
 
-
-@media (min-width: 992px) { 
-    .projects {
-        margin: 0 38px;
-    }
-    .proj {
-        margin: 15px;
-    }
- }
-
-@media (min-width: 1000px) { 
-    .projects {
-        margin: 0 45px;
-    }
-    .proj {
-        margin: 15px;
-    }
- }
- 
- @media (min-width: 1000px) { 
-    .projects {
-        margin: 0 45px;
-    }
-    .proj {
-        margin: 15px;
-    }
- }
- 
-@media (min-width: 1200px) { 
-    .projects {
-        visibility: hidden;
-    }
- }
-
-*/
 .main {
     background-color: #41B3D3; 
     /*background-image: url(img/fireworks1.jpeg); */
@@ -81,6 +45,10 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    
+    i {
+        font-size: 4em;
+    }
     
     .info{
         padding: 0 50px;
@@ -97,7 +65,7 @@ p {
 
 .who {
     color: black;
-    text-align: left;
+    text-align: right;
     width: 100%;
     margin: 0;
     background-color: #FFF;
@@ -188,6 +156,7 @@ p {
         p {
             display: block;
             visibility: hidden;
+            font-weight: 400;
         }
         
         i {
@@ -201,6 +170,10 @@ p {
             -ms-transition: color .25s ease-in-out;
             -o-transition: color .25s ease-in-out;
             transition: color .25s ease-in-out; 
+        }
+        
+        a:hover {
+            color: #1F3A93;
         }
         
         -webkit-transition: background .25s ease-in-out;

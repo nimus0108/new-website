@@ -26,46 +26,9 @@ p {
   font-size: 1.5em;
   line-height: 1em; }
 
-/*
-@media (min-width: 768px) { 
-    
- }
+a:hover {
+  color: #81CFE0; }
 
-
-@media (min-width: 992px) { 
-    .projects {
-        margin: 0 38px;
-    }
-    .proj {
-        margin: 15px;
-    }
- }
-
-@media (min-width: 1000px) { 
-    .projects {
-        margin: 0 45px;
-    }
-    .proj {
-        margin: 15px;
-    }
- }
- 
- @media (min-width: 1000px) { 
-    .projects {
-        margin: 0 45px;
-    }
-    .proj {
-        margin: 15px;
-    }
- }
- 
-@media (min-width: 1200px) { 
-    .projects {
-        visibility: hidden;
-    }
- }
-
-*/
 .main {
   background-color: #41B3D3;
   /*background-image: url(img/fireworks1.jpeg); */
@@ -76,6 +39,8 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed; }
+  .main i {
+    font-size: 4em; }
   .main .info {
     padding: 0 50px; }
 
@@ -88,7 +53,7 @@ p {
 
 .who {
   color: black;
-  text-align: left;
+  text-align: right;
   width: 100%;
   margin: 0;
   background-color: #FFF; }
@@ -155,7 +120,8 @@ p {
       visibility: hidden; }
     .projects .proj p {
       display: block;
-      visibility: hidden; }
+      visibility: hidden;
+      font-weight: 400; }
     .projects .proj i {
       color: #FFF;
       font-size: 2em;
@@ -166,6 +132,8 @@ p {
       -ms-transition: color .25s ease-in-out;
       -o-transition: color .25s ease-in-out;
       transition: color .25s ease-in-out; }
+    .projects .proj a:hover {
+      color: #1F3A93; }
   .projects .p1 {
     background-image: url(img/projects/1.png); }
   .projects .p2 {
