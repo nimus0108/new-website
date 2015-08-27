@@ -21,7 +21,6 @@ h1 {
 }
 
 h2 {
-    padding-top: 20vh;
     font-weight: 600;
     font-size: 4em;
 }
@@ -52,6 +51,11 @@ a:hover {
     
     .info{
         padding: 0 50px;
+        padding-top: 20vh;
+    }
+    
+    .glasses {
+        width: 7em;
     }
 }
 
