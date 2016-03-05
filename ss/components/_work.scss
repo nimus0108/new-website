@@ -51,7 +51,7 @@
 			height: 20em;
 			object-fit: cover;
 			overflow: hidden;
-			
+
 			h3 {
 				position: absolute;
 				padding: 0.2em 0.5em;
@@ -67,6 +67,9 @@
 		}
 
 		.p:hover {
+			color: white;
+			// transition: all 250ms ease;
+
 			h3 {
 				visibility: visible;
 			}
@@ -81,5 +84,18 @@
 		.p5 {background-image: url("../img/projects/5.jpg");}
 		.p6 {background-image: url("../img/projects/6.jpg");}
 
+		.p1:hover {background: #4183D7;}
+		.p2:hover {background: #4183D7;}
+		.p3:hover {background: #4183D7;}
+		.p4:hover {background: #4183D7;}
+		.p5:hover {background: #4183D7;}
+		.p6:hover {background: #4183D7;}
 	}
 }
+
+
+
+
+
+
+

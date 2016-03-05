@@ -1,22 +1,37 @@
-.landing {
-  background-color: #000;
-  color: #FFF; }
-  .landing .intro {
-    padding: 2em 6em;
-    width: 55em; }
-    .landing .intro h1 {
-      font-size: 8em;
-      line-height: 1em; }
-
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   font-weight: 300;
   background-color: #FFF; }
 
+.landing {
+  background: url("../img/bg.jpg") no-repeat center center fixed;
+  backgorund-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: #FFF; }
+  .landing .intro {
+    padding: 6em 2em; }
+    .landing .intro .new-website {
+      margin: 3em;
+      border: solid 5px #FFF; }
+      .landing .intro .new-website h1 {
+        font-size: 7em;
+        line-height: 1em;
+        margin: 0.5em;
+        text-align: center; }
+
+@media only screen and (max-width: 750px) {
+  .landing .intro {
+    padding: 6em 0; }
+    .landing .intro .new-website h1 {
+      font-size: 3em; } }
 .nav {
-  position: absolute;
   right: 0;
   font-size: 1.5em;
   padding: 1em 2em;
@@ -44,6 +59,9 @@ body {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1); }
+  @media screen and (min-width: 750px) {
+    .nav .nav {
+      float: left; } }
 
 .work {
   background-color: #FFF;
@@ -98,10 +116,12 @@ body {
         padding: 0.2em 0.7em;
         bottom: 2em;
         visibility: hidden; }
-    .work .projects .p:hover h3 {
-      visibility: visible; }
-    .work .projects .p:hover h4 {
-      visibility: visible; }
+    .work .projects .p:hover {
+      color: white; }
+      .work .projects .p:hover h3 {
+        visibility: visible; }
+      .work .projects .p:hover h4 {
+        visibility: visible; }
     .work .projects .p1 {
       background-image: url("../img/projects/1.jpg"); }
     .work .projects .p2 {
@@ -114,5 +134,17 @@ body {
       background-image: url("../img/projects/5.jpg"); }
     .work .projects .p6 {
       background-image: url("../img/projects/6.jpg"); }
+    .work .projects .p1:hover {
+      background: #4183D7; }
+    .work .projects .p2:hover {
+      background: #4183D7; }
+    .work .projects .p3:hover {
+      background: #4183D7; }
+    .work .projects .p4:hover {
+      background: #4183D7; }
+    .work .projects .p5:hover {
+      background: #4183D7; }
+    .work .projects .p6:hover {
+      background: #4183D7; }
 
 /*# sourceMappingURL=styles.css.map */

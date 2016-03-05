@@ -1,5 +1,4 @@
 .nav {
-	position: absolute;
 	right: 0;
 	font-size: 1.5em;
 	padding: 1em 2em;
@@ -35,6 +34,12 @@
 	  visibility: visible;
 	  -webkit-transform: scaleX(1);
 	  transform: scaleX(1);
+	}
+
+	@media screen and (min-width: 750px) {
+    	.nav {
+    		float: left;
+    	}	
 	}
 
 }
